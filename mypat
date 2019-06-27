@@ -1,0 +1,12 @@
+diff --git a/Emo.java b/Emo.java
+index 4306938..8833828 100644
+--- a/Emo.java
++++ b/Emo.java
+@@ -4,4 +4,7 @@ public class Emo implements Serializable{
+ 	private Integer empno;
+ 	private String ename;
+ 	private Date hiredate;
++	private Double sal;
++	private Double comm;
++	private Emo mgr;
+ }
